@@ -6,8 +6,10 @@
 
 
     // When the window has finished loading create our google map below
-    google.maps.event.addDomListener(window, 'load', init);
-
+    // google.maps.event.addDomListener(window, 'load', init);
+    $(document).ready(function () {
+        init();
+    })
     function init() {
         // Basic options for a simple Google Map
         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -16,7 +18,8 @@
             zoom: 12,
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+            // https://www.google.com/maps/place/LockDownProtection+Inc./@33.6727461,-84.6362426,15z/data=!4m5!3m4!1s0x0:0x1a60642b70bac40b!8m2!3d33.6727461!4d-84.6362426
+            center: new google.maps.LatLng(33.6727461, -84.6362426), 
 
             scrollwheel: false,
 
@@ -49,8 +52,8 @@
 
         // Let's also add a marker while we're at it
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.6700, -73.9400),
+            position: new google.maps.LatLng(33.6727461, -84.6362426),
             map: map,
-            title: 'Snazzy!'
+            title: 'LOCKDOWN PROTECTION'
         });
     }
