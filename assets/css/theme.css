@@ -3227,9 +3227,6 @@ body {
   color: #fff;
 }
 
-.b-type-d:after {
-  background-color: rgba(17, 17, 17, 0.85);
-}
 
 .b-type-d__title {
   margin-top: 50px;

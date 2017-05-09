@@ -245,3 +245,8 @@ ul.demopage-help_list li a:hover {
 	}
 }
 
+/* Slider Modifications */
+.sp-image-container:after {
+    background-color:none !important;
+
+}
