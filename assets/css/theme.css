@@ -4338,3 +4338,7 @@ body {
 .no-br {
   white-space: nowrap;
 }
+
+.supp-tick {
+    padding-bottom: 60px;
+}
