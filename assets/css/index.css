@@ -250,3 +250,8 @@ ul.demopage-help_list li a:hover {
     background-color:none !important;
 
 }
+
+.footerelement{
+	text-emphasis: center;
+	text-align: center;
+}
