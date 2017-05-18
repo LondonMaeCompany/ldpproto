@@ -382,3 +382,12 @@
   background-color: black;
   background-color: transparent;
 }
+
+.banner2 {
+   background:rgba(0,0,0,0.3)
+}
+
+
+.space{
+  padding-bottom: 15px;
+}
