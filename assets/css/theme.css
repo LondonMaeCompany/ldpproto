@@ -4342,3 +4342,16 @@ body {
 .supp-tick {
     padding-bottom: 60px;
 }
+
+.lettercolor{
+  color: black;
+}
+
+.lettercolorone{
+  font-family: 'Bitter', serif;
+  color: white;
+}
+
+.spinner{
+  background-color: black;
+}
