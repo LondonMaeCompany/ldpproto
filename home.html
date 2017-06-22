@@ -159,7 +159,7 @@
                     in real-time. Crystal clear HD streaming over a smartphone or tablet allows you to see who’s ringing your doorbell, whether your packages have arrived, or what your employer's are up to. Contact us today for a free consultation to
                     discuss your needs. </p>
                 </div>
-                <button class="btn btn-margin btn-default btn-sm btn-effect">Get In Touch</button>
+                <button  class="btn btn-margin btn-default btn-sm btn-effect">Get In Touch</button>
               </div>
             </section>
             <!-- end b-type-b-->
@@ -277,33 +277,33 @@
               <p>To speak to someone right now, call <strong> 404-200-3124</strong></p>
             </div>
           </div>
-          <form class="b-form-request__form">
+          <form class="b-form-request__form" action="" method="POST">
             <div class="row">
               <div class="col-sm-6">
-                <input type="text" placeholder="Full Name" class="form-control" />
+                <input type="text" name="fullname" placeholder="Full Name" class="form-control" />
               </div>
               <div class="col-sm-6">
-                <input type="text" placeholder="Company" class="form-control" />
+                <input type="text" name="company" placeholder="Company" class="form-control" />
               </div>
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <input type="email" placeholder="Email" class="form-control" />
+                <input type="email" name="email" placeholder="Email" class="form-control" />
               </div>
               <div class="col-sm-6">
-                <input type="tel" placeholder="Phone" class="form-control" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <input type="text" placeholder="Service Location (Address)" class="form-control" />
+                <input type="tel" name="phone" placeholder="Phone" class="form-control" />
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <input type="text" placeholder="Service Location (City, State, Zip Code)" class="form-control" />
-                <textarea rows="4" placeholder="Description of Service(s) Needed , Which Day / Date etc..." class="form-control"></textarea>
-                <button class="btn btn-default btn-sm btn-effect">Submit request</button>
+                <input type="text" name="address" placeholder="Service Location (Address)" class="form-control" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <input type="text" name="location" placeholder="Service Location (City, State, Zip Code)" class="form-control" />
+                <textarea rows="4" name="description" placeholder="Description of Service(s) Needed , Which Day / Date etc..." class="form-control"></textarea>
+                <button name="submit" class="btn btn-default btn-sm btn-effect" type="submit">Submit request</button>
               </div>
             </div><i class="b-form-request__icon pe-7s-note2"></i>
           </form>
@@ -452,3 +452,72 @@
 </body>
 
 </html>
+<?php
+require 'PHPMailer/PHPMailerAutoload.php';
+if(isset($_POST['submit']))
+{
+	
+	$subject="abc";
+	$fullname=$_POST['fullname'];
+	$company=$_POST['company'];
+	$email=$_POST['email'];
+	$phone=$_POST['phone'];
+	$address=$_POST['address'];
+	$location=$_POST['location'];
+	$description=$_POST['description'];
+	$message = "Fullname : $fullname <br>";
+	$message .= "Company : $company <br>";
+	$message .= "Email : $email <br>";
+	$message .= "Phone : $phone <br>";
+	$message .= "Address : $address <br>";
+	$message .= "Location : $location <br>";
+	$message .= "Description : $description <br>";
+	
+	$mail = new PHPMailer;
+	 if(!$mail->validateAddress($email)){
+    echo 'Invalid Email Address';
+    exit;
+  }
+	$mail->isSMTP();                            // Set mailer to use SMTP
+$mail->Host = gethostbyname('ssl://smtp.gmail.com');           // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                     // Enable SMTP authentication
+$mail->Username = 'rajan.humrobo@gmail.com';          // SMTP username
+$mail->Password = 'rajan@123'; // SMTP password
+//$mail->SMTPSecure = 'ssl';                  // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 465;                          // TCP port to connect to
+
+$mail->setFrom('lockhart@lockdownprotection.com','Lock');
+$mail->addAddress('rajan.humrobo@gmail.com','Admin');   // Add a recipient
+$mail->isHTML(true);
+$mail->Subject = $subject ;
+$mail->Body    = $message;
+	if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Message has been sent';
+}
+	// mail($to,$subject,$message,'','');
+}
+
+// keeps the current $mail settings and creates new object
+$mail2 =  new PHPMailer;
+	$mail2->isSMTP();                            // Set mailer to use SMTP
+$mail2->Host = gethostbyname('ssl://smtp.gmail.com');           // Specify main and backup SMTP servers
+$mail2->SMTPAuth = true;                     // Enable SMTP authentication
+$mail2->Username = 'rajan.humrobo@gmail.com';          // SMTP username
+$mail2->Password = 'rajan@123'; // SMTP password
+//$mail->SMTPSecure = 'ssl';                  // Enable TLS encryption, `ssl` also accepted
+$mail2->Port = 465;                          // TCP port to connect to
+$mail2->setFrom('lockhart@lockdownprotection.com','Lock');
+$mail2->isHTML(true);
+$mail2->Subject = "Request Recieved";
+// now send to user.
+$mail2->addAddress($email);
+$mail2->Body = "Thank you for your inquiry, we will contact you in 24 hours";
+
+if(!$mail2->Send()) {
+    echo "Mailer Error: " . $mail2->ErrorInfo;
+} else {
+    echo "Message sent!<br>";
+}
