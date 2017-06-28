@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 24/06/2016 13:48
+  	Creation date: 27/06/2017 16:32
   	*/
 
 @font-face {
@@ -24,18 +24,23 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
+        font-size: 50px;
 font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-alarm:before { content: "\f100"; }
-.flaticon-cab:before { content: "\f101"; }
-.flaticon-cctv:before { content: "\f102"; }
-.flaticon-internet:before { content: "\f103"; }
-.flaticon-lifebuoy:before { content: "\f104"; }
-.flaticon-safe-box:before { content: "\f105"; }
-.flaticon-security:before { content: "\f106"; }
-.flaticon-shield:before { content: "\f107"; }
-.flaticon-technology:before { content: "\f108"; }
-.flaticon-umbrella:before { content: "\f109"; }
-.flaticon-unlocked:before { content: "\f10a"; }
-.flaticon-video:before { content: "\f10b"; }
+.flaticon-screen:before { content: "\f100"; }
+.flaticon-smartphone-with-shield:before { content: "\f101"; }
+.flaticon-doorway:before { content: "\f102"; }
+.flaticon-warning:before { content: "\f103"; }
+.flaticon-networking:before { content: "\f104"; }
+.flaticon-unlocked:before { content: "\f105"; }
+.flaticon-shield:before { content: "\f106"; }
+.flaticon-security:before { content: "\f107"; }
+.flaticon-browser:before { content: "\f108"; }
+.flaticon-video:before { content: "\f109"; }
+.flaticon-technology:before { content: "\f10a"; }
+.flaticon-android:before { content: "\f10b"; }
+.flaticon-windows:before { content: "\f10c"; }
+.flaticon-logo:before { content: "\f10d"; }
+.flaticon-computer:before { content: "\f10e"; }

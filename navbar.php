@@ -14,7 +14,7 @@
           </ul>
           <!-- end social-list-->
           <div class="header-contact">
-            <div class="header-contact__item">Call  :<span class="header-contact__info"> 404 200 3124</span></div>
+            <div class="header-contact__item">Call  :<span class="header-contact__info"> 404.200.3124</span></div>
             <div class="header-contact__item">Email  :<a href="mailto:LOCKHART@LOCKDOWNPROTECTION.COM" class="header-contact__info"> LOCKHART@LOCKDOWNPROTECTION.COM</a></div>
           </div>
         </div>
@@ -24,7 +24,7 @@
   <div class="header-main">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12"><a href="home.html" class="logo"><img src="assets/media/general/logo_type-c.png" alt="Logo" class="logo__img img-responsive"/></a>
+        <div class="col-xs-12"><a href="home.php" class="logo"><img src="assets/media/general/logo_type-c.png" alt="Logo" class="logo__img img-responsive"/></a>
           <div class="header-nav">
             <div class="navbar-trigger visible-xs">
               <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -49,8 +49,8 @@
                   <li class="dropdown"><a href="home.html">Software & Support</a>
                     <ul role="menu" class="dropdown-menu">
                       <li><a href="support.html">Software Downloads</a></li>
-                      <li><a href="pricing-faqs.html">How to Videos</a></li>
-                      <li><a href="typography.html">Customer Support</a></li>
+                      <li><a href="how-to-videos.html">How to Videos</a></li>
+                        <li><a href="contact.html">Customer Support</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"><a href="post-1.html">See More</a>

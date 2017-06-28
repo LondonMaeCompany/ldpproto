@@ -151,6 +151,7 @@
 
 @media (max-width:991px) and (min-width:768px) {
   .header-main__btn {
+    visibility: hidden;
     margin-top: 10px;
   }
   .b-advantages-1-item__decor {
@@ -204,8 +205,10 @@
   }
   .search-trigger,
   .header-main__btn {
+    visibility: hidden;
+
     float: none;
-    display: inline-block;
+    display: inline;
   }
   .b-type-b__inner {
     padding-left: 0;
@@ -344,6 +347,12 @@
   }
   .b-pricing_lg {
     margin-top: 150px;
+  }
+  .logo{
+    max-width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
   }
 }
 

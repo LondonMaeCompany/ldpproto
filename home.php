@@ -29,7 +29,7 @@
         <div class="container">
           <div class="row navbar-banner">
             <div class="col-xs-12">
-              <a href="home.html" class="logo space"><img src="assets/media/general/logo_type-a.png" width="200px" height="auto" alt="Logo" class="logo__img img-responsive" /></a>
+              <a href="home.php" class="logo space"><img src="assets/media/general/logo_type-a.png" width="200px" height="auto" alt="Logo" class="logo__img img-responsive" /></a>
               <div class="header-nav">
                 <div class="navbar-trigger visible-xs">
                   <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -37,9 +37,9 @@
                 <nav class="navbar yamm">
                   <div id="navbar-collapse-1" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <li class="dropdown"><a href="home.html">Home</a>
+                      <li class="dropdown"><a href="home.php">Home</a>
                         <ul role="menu" class="dropdown-menu">
-                          <li><a href="home.html">Lock Down Protection</a></li>
+                          <li><a href="home.php">LockDown Protection</a></li>
                           <li><a href="home-2.html">LockDown Mobile</a></li>
                         </ul>
                       </li>
@@ -48,18 +48,18 @@
 
                       </li>
 
-                      <li class="dropdown"><a href="home.html">Software & Support</a>
+                      <li class="dropdown"><a href="support.html">Software & Support</a>
                         <ul role="menu" class="dropdown-menu">
                           <li><a href="support.html">Software Downloads</a></li>
-                          <li><a href="pricing-faqs.html">How to Videos</a></li>
+                          <li><a href="how-to-videos.html">How to Videos</a></li>
                           <li><a href="contact.html">Customer Support</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown"><a href="post-1.html">See More</a>
+                      <li class="dropdown"><a href="dh-2.html">See More</a>
                         <ul role="menu" class="dropdown-menu">
-                          <li><a href="post-1.html">Our Work</a></li>
-                          <li><a href="CSReviews">Proven Protection</a></li>
-                          <li><a href="contact.html">Customer Reviews</a></li>
+
+                          <li><a href="dh-2.html">Proven Protection</a></li>
+                          <li><a href="https://www.google.com/#q=lockdown+protection+reviews%5C&lrd=0x88f4df8f7278b649:0x1a60642b70bac40b,1,">Customer Reviews</a></li>
                         </ul>
                       </li>
 
@@ -144,7 +144,7 @@
               <div class="b-type-b__media">
                 <div class="b-type-b__media-title">See It In Action</div>
                 <div class="b-video player fixed-controls play-button">
-                  <video poster="assets/media/components/b-video/poster-1.jpg">
+                  <video poster="assets/media/edits/logo.jpg">
                       <source src="assets/media/components/b-video/commercial.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -221,7 +221,7 @@
               <div class="b-type-c__subtitle lettercolorone">Hire Lock Down Protection to Secure What’s Yours</div>
               <div class="b-type-c__text">
                 <p class="lettercolorone"><strong>Our cost-effective and professional solutions put the most advanced home security in your hands, anywhere in the world.</strong> </p>
-              </div><a href="home.html" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a>
+              </div><a href="home.php" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a>
             </div>
           </div>
         </div>
@@ -310,7 +310,7 @@
         </div>
       </section>
       <!-- end b-form-request-->
-      <section style="background-image: url('assets/media/general/cameraman.jpg');" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-type-d section-bg jarallax section-table__inner">
+      <section style="background-image: url('assets/media/edits/LDP_ladder.jpg');" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-type-d section-bg jarallax section-table__inner">
         <div class="section__inner"><img src="assets/media/general/logo_type-a.png" width="200px" height="auto" alt="Logo" class="img-responsive" />
           <h2 class="b-type-d__title ui-title-inner-1 lettercolor">Get in touch today to learn more about customized protection you can afford from Lock Down Protection</h2>
           <dl class="b-type-d__list-desription list-desription">
@@ -329,7 +329,7 @@
           <h2 class="b-container-without-1__title">Careers at Lock Down Protection</h2>
           <div class="b-container-without-1__text">
             <p>We are always recruiting top security talent. Reach out to us with your CV if you’re interested in joining our team. </p>
-          </div><a href="home.html" class="b-container-without-1__btn btn btn-primary btn-effect">send us your cv</a>
+          </div><a href="home.php" class="b-container-without-1__btn btn btn-primary btn-effect">send us your cv</a>
         </div>
         <!-- end b-container-without-1-->
       </div>
@@ -338,7 +338,7 @@
           <h2 class="b-container-without-1__title">Learn More About Home & Commerical Security</h2>
           <div class="b-container-without-1__text">
             <p>Download our home security brochure to learn more about the state of the art technology installed by Lock Down Protection.</p>
-          </div><a href="home.html" class="b-container-without-1__btn btn btn-default btn-effect">download now</a>
+          </div><a href="home.php" class="b-container-without-1__btn btn btn-default btn-effect">download now</a>
         </div>
         <!-- end b-container-without-1-->
       </div>
@@ -354,7 +354,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <a href="home.html" class="footer__logo"><img src="assets/media/general/logo_type-b.png" width="300px" alt="Logo" class="img-responsive center-block" /></a>
+                <a href="home.php" class="footer__logo"><img src="assets/media/general/logo_type-b.png" width="300px" alt="Logo" class="img-responsive center-block" /></a>
               </div>
             </div>
             <div class="row">
@@ -370,7 +370,7 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <section class="footer-section">
                   <h3 class="footer-section__title">Areas served</h3>
                   <ul class="footer-section__list list list-mark-4">
@@ -385,39 +385,23 @@
                   </ul>
                 </section>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <section class="footer-section">
                   <h3 class="footer-section__title">Services</h3>
                   <ul class="footer-section__list list list-mark-4">
-                    <li><a href="post-1.html">LockDown Mobile</a></li>
-                    <li><a href="post-1.html">Cameras</a></li>
-                    <li><a href="post-1.html">Video Surveillance</a></li>
-                    <li><a href="post-1.html">Access Control</a></li>
-                    <li><a href="post-1.html">Security Consulting</a></li>
-                    <li><a href="post-1.html">IT & Networking</a></li>
-                    <li><a href="post-1.html">IP Monitoring</a></li>
-                    <li><a href="post-1.html">Quick Alarm Response</a></li>
-                    <li><a href="post-1.html">Systems Networking</a></li>
+                    <li><a href="services.html">LockDown Mobile</a></li>
+                    <li><a href="services.html">Cameras</a></li>
+                    <li><a href="services.html">Video Surveillance</a></li>
+                    <li><a href="services.html">Access Control</a></li>
+                    <li><a href="services.html">Security Consulting</a></li>
+                    <li><a href="services.html">IT & Networking</a></li>
+                    <li><a href="services.html">IP Monitoring</a></li>
+                    <li><a href="services.html">Quick Alarm Response</a></li>
+                    <li><a href="services.html">Systems Networking</a></li>
                   </ul>
                 </section>
               </div>
-              <div class="col-sm-4">
-                <section class="footer-section">
-                  <h3 class="footer-section__title">Recent News</h3>
-                  <div class="footer-social-net"><i class="footer-social-net__icon fa fa-twitter color-primary"></i>
-                    <div class="footer-social-net__inner">
-                      <div class="footer-social-net__text">Lorem ipsum dolor sit amet elit sed do eiusmod temp incididunt ut labore et dolore magna aliqua.</div>
-                      <time datetime="2012-10-27 15:20" class="footer-social-net__time">5 minutes ago</time>
-                    </div>
-                  </div>
-                  <div class="footer-social-net"><i class="footer-social-net__icon fa fa-twitter color-primary"></i>
-                    <div class="footer-social-net__inner">
-                      <div class="footer-social-net__text">Ellamco laboris nisi ut aliquip ex ea comodo consequat Duis aute irure dolor in reprehenderit.</div>
-                      <time datetime="2012-10-27 15:20" class="footer-social-net__time">5 minutes ago</time>
-                    </div>
-                  </div>
-                </section>
-              </div>
+
             </div>
           </div>
         </div>
@@ -425,7 +409,7 @@
       <div class="copyright">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12">Copyright 2017<a href="home.html" class="copyright__link"> Lock Down Protection</a> All rights reserved.<a href="home.html" class="copyright__link-2">Privacy Policy</a><a href="home.html" class="copyright__link-2">Terms & Conditions</a></div>
+            <div class="col-xs-12">Copyright 2017<a href="home.php" class="copyright__link"> Lock Down Protection</a> All rights reserved.<a href="home.php" class="copyright__link-2">Privacy Policy</a><a href="home.php" class="copyright__link-2">Terms & Conditions</a></div>
           </div>
         </div>
       </div>
@@ -456,7 +440,7 @@
 require 'PHPMailer/PHPMailerAutoload.php';
 if(isset($_POST['submit']))
 {
-	
+
 	$subject="abc";
 	$fullname=$_POST['fullname'];
 	$company=$_POST['company'];
@@ -472,7 +456,7 @@ if(isset($_POST['submit']))
 	$message .= "Address : $address <br>";
 	$message .= "Location : $location <br>";
 	$message .= "Description : $description <br>";
-	
+
 	$mail = new PHPMailer;
 	 if(!$mail->validateAddress($email)){
     echo 'Invalid Email Address';

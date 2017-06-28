@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 24/06/2016 13:48
+    Creation date: 27/06/2017 16:32
     */
 
     @font-face {
@@ -36,28 +36,34 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-alarm:before { content: "\f100"; }
-.flaticon-cab:before { content: "\f101"; }
-.flaticon-cctv:before { content: "\f102"; }
-.flaticon-internet:before { content: "\f103"; }
-.flaticon-lifebuoy:before { content: "\f104"; }
-.flaticon-safe-box:before { content: "\f105"; }
-.flaticon-security:before { content: "\f106"; }
-.flaticon-shield:before { content: "\f107"; }
-.flaticon-technology:before { content: "\f108"; }
-.flaticon-umbrella:before { content: "\f109"; }
-.flaticon-unlocked:before { content: "\f10a"; }
-.flaticon-video:before { content: "\f10b"; }
+    .flaticon-screen:before { content: "\f100"; }
+.flaticon-smartphone-with-shield:before { content: "\f101"; }
+.flaticon-doorway:before { content: "\f102"; }
+.flaticon-warning:before { content: "\f103"; }
+.flaticon-networking:before { content: "\f104"; }
+.flaticon-unlocked:before { content: "\f105"; }
+.flaticon-shield:before { content: "\f106"; }
+.flaticon-security:before { content: "\f107"; }
+.flaticon-browser:before { content: "\f108"; }
+.flaticon-video:before { content: "\f109"; }
+.flaticon-technology:before { content: "\f10a"; }
+.flaticon-android:before { content: "\f10b"; }
+.flaticon-windows:before { content: "\f10c"; }
+.flaticon-logo:before { content: "\f10d"; }
+.flaticon-computer:before { content: "\f10e"; }
     
-    $font-Flaticon-alarm: "\f100";
-    $font-Flaticon-cab: "\f101";
-    $font-Flaticon-cctv: "\f102";
-    $font-Flaticon-internet: "\f103";
-    $font-Flaticon-lifebuoy: "\f104";
-    $font-Flaticon-safe-box: "\f105";
-    $font-Flaticon-security: "\f106";
-    $font-Flaticon-shield: "\f107";
-    $font-Flaticon-technology: "\f108";
-    $font-Flaticon-umbrella: "\f109";
-    $font-Flaticon-unlocked: "\f10a";
-    $font-Flaticon-video: "\f10b";
+    $font-Flaticon-screen: "\f100";
+    $font-Flaticon-smartphone-with-shield: "\f101";
+    $font-Flaticon-doorway: "\f102";
+    $font-Flaticon-warning: "\f103";
+    $font-Flaticon-networking: "\f104";
+    $font-Flaticon-unlocked: "\f105";
+    $font-Flaticon-shield: "\f106";
+    $font-Flaticon-security: "\f107";
+    $font-Flaticon-browser: "\f108";
+    $font-Flaticon-video: "\f109";
+    $font-Flaticon-technology: "\f10a";
+    $font-Flaticon-android: "\f10b";
+    $font-Flaticon-windows: "\f10c";
+    $font-Flaticon-logo: "\f10d";
+    $font-Flaticon-computer: "\f10e";
