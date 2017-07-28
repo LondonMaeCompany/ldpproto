@@ -1752,8 +1752,12 @@ body {
 }
 
 .b-container-without-1_mod-a {
-  background-image: url("../media/components/b-container-without-1/bg-2.jpg");
-  background-size: cover;
+  background-image: url("../media/components/b-container-without-1/bg-3.png");
+  background-repeat: no-repeat;
+  background-position: 15% 40%;
+  padding-top: 97px;
+  padding-bottom: 104px;
+
 }
 
 .b-container-without-1_mod-b {
@@ -1766,6 +1770,11 @@ body {
 
 .b-container-without-1_mod-b .b-container-without-1__btn {
   color: #fff;
+  background-color: transparent;
+}
+
+.b-container-without-1_mod-a  {
+  color: black;
   background-color: transparent;
 }
 
@@ -3660,13 +3669,17 @@ body {
 /* ======= HEADER ======= */
 
 .header {
-  padding-bottom: 40px;
+  padding-bottom: 5px;
   z-index: 1000;
+  position: static;
+
 }
 
 .header .logo {
   float: left;
-  padding-top: 40px;
+  padding-top: 2px;
+  margin-left: -200px;
+
 }
 
 .header .header-top {
@@ -3681,7 +3694,7 @@ body {
 }
 
 .header .navbar-trigger .icon-bar {
-  background-color: #333;
+  background-color: #FFF;
 }
 
 .header_mod-a {
@@ -3725,8 +3738,9 @@ body {
 }
 
 .header-nav {
-  padding-top: 35px;
+  padding-top: 10px;
   text-align: right;
+  margin-right: -200px;
 }
 
 .header-main__btn {

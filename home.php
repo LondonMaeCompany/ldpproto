@@ -170,6 +170,9 @@
         </div>
       </div>
     </div>
+
+
+
     <section style="background-image: url('assets/media/components/b-advantages-1/bg-1.jpg');" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-advantages-1 section-default section-bg section-bg_primary jarallax">
       <div class="section__inner">
         <div class="container">
@@ -262,9 +265,10 @@
         </div>
 
       </div>
-      <!-- end b-gallery-1-->
+        </div>
 
-    </div>
+
+
     <div class="section-area section-table clearfix">
       <section class="b-form-request section-table__inner">
         <div style="background-image: url('assets/media/components/b-form-request/castle.jpg');" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-form-request__parallax  section-bg_primary jarallax"></div>
