@@ -58,7 +58,7 @@ $(document).ready(function() {
 //  Sticky Header
 /////////////////////////////////////
 
-
+/*
     if (windowWidth > tabletWidth) {
 
         var headerSticky = $(".l-theme").data("header");
@@ -85,7 +85,7 @@ $(document).ready(function() {
             });
         }
     }
-
+*/ 
 
 
 /////////////////////////////////////
@@ -134,7 +134,7 @@ if ($('.wow').length > 0) {
     window.prettyPrint && prettyPrint();
     $(document).on('click', '.yamm .dropdown-menu', function(e) {
         e.stopPropagation();
-    });
+    }); 
 
 
     $(".yamm .navbar-collapse .nav > li > a").hover(
@@ -409,11 +409,12 @@ if ($('.js-zoom-images').length > 0) {
 
         $( '#main-slider' ).sliderPro({
             width:  sliderWidth,
-            height: sliderHeigth,
+            // height: sliderHeigth,
+			height: 600,  
             arrows: sliderArrows,
             buttons: sliderButtons,
-            fade: true,
-            fullScreen: true,
+            fade: true, 
+            fullScreen: false,
             autoplay: true
         });
     }
