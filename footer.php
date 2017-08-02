@@ -81,11 +81,7 @@
     
      <footer class="footer" id="footer"> 
       <div class="footer__main footer__main_mod-a parallax-bg parallax-dark">
-        <ul class="bg-slideshow">
-          <li>
-            <div style="background-image:url('assets/media/components/footer/bg.jpg');" class="bg-slide"></div>
-          </li>
-        </ul>
+
         <div class="parallax__inner">
           <div class="container">
             <div class="row">
@@ -103,51 +99,15 @@
                 <!-- end social-list-->
               </div>
             </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <section class="footer-section">
-                  <h3 class="footer-section__title">Areas served</h3>
-                  <ul class="footer-section__list list list-mark-4">
-                    <li><a href="#">Commercial Security</a></li>
-                    <li><a href="#">Retail Security</a></li>
-                    <li><a href="#">Industrial Security</a></li>
-                    <li><a href="#">Mobile Security</a></li>
-                    <li><a href="#">Government Facilities</a></li>
-                    <li><a href="#">Residential Security</a></li>
-                    <li><a href="#">Security Monitoring</a></li>
-                    <li><a href="#">IP Cameras</a></li>
-                  </ul>
-                </section>
-              </div>
-              <div class="col-sm-6">
-                <section class="footer-section">
-                  <h3 class="footer-section__title">Services</h3>
-                  <ul class="footer-section__list list list-mark-4">
-                    <li><a href="services.html">LockDown Mobile</a></li>
-                    <li><a href="services.html">Cameras</a></li>
-                    <li><a href="services.html">Video Surveillance</a></li>
-                    <li><a href="services.html">Access Control</a></li>
-                    <li><a href="services.html">Security Consulting</a></li>
-                    <li><a href="services.html">IT & Networking</a></li>
-                    <li><a href="services.html">IP Monitoring</a></li>
-                    <li><a href="services.html">Quick Alarm Response</a></li>
-                    <li><a href="services.html">Systems Networking</a></li>
-                  </ul>
-                </section>
-              </div>
-
-            </div>
-          </div>
-        </div>
+          </div> 
+        </div>  
       </div>
       <div class="copyright">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12">Copyright 2017<a href="home.php" class="copyright__link"> Lock Down Protection</a> All rights reserved.<a href="home.php" class="copyright__link-2">Privacy Policy</a><a href="home.php" class="copyright__link-2">Terms & Conditions</a></div>
-          </div>
-        </div>
+            <div class="col-xs-12">Copyright <?php echo date('Y'); ?> &copy; <a href="home.php" class="copyright__link copyright__link-2"> Lock Down Protection</a> All rights reserved.<a href="home.php" class="copyright__link-2">Privacy Policy</a><a href="home.php" class="copyright__link-2">Terms & Conditions</a></div>
+          </div>  
+        </div> 
       </div>
 </footer>
   </div> 

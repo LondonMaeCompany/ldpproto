@@ -5,7 +5,12 @@ $('.navbar-offcanvas li a').on('click', (e) => {
 	$('.navbar-offcanvas.in').height('').removeClass('in')
 	$('.offcanvas-toggle').removeClass('is-open')
 })
-	
+
+/*
+$('#videopopup').on('shown.bs.modal', function () {
+  $('#videopop').focus()
+}) 
+*/
  
 jQuery(document).ready(function($) { 
 	$( ".last-menu-item a" ).click(function( event ) {
