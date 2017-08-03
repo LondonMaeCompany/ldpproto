@@ -1,4 +1,4 @@
-<div id="footerForm" class="section-area section-table clearfix">
+<div id="footerForm" class="footer-section section-area section-table clearfix">
       <section class="b-form-request section-table__inner" style="background-image: url('assets/media/components/b-form-request/castle.jpg');" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-form-request__parallax  section-bg_primary jarallax">  
         <div class="section__inner"> 
           <div class="b-form-request__inner">
