@@ -89,7 +89,25 @@ header.header .logo img { display: block;  }
 .banner-divider { /* background: #ccc; */  height: 2px; margin: 2px 0;  } 
 
 
+/* SUPPORT PAGE */ 
+.support-ticket-form { }
+.support-ticket-form .form-control { margin-bottom: 10px; border-color: #ccc;  }
+.support-icons-panel { margin-top: 80px; }
+.border-right-1 { border-right: 1px solid #ccc; }
+.icon-panel { padding-top: 20px; padding-bottom: 20px; text-align: center; }
+.icon-panel i { font-size: 64px; display: block; margin: 0 auto; }    
+.icon-link-text { font-size: 24px; text-transform: uppercase; color: rgb(119, 119, 119); display: block; margin-top: 10px;  }
+.support-icons-panel:hover i { color: #3e51ce; }  
+.support-icons-panel:hover .icon-link-text, .icon-link-text:hover, .icon-link-text:focus, .icon-link-text:active {   }
+.small-link { float: right; position: relative; top: -10px; } 
+.small-link::after { clear: both; display: block; width: 0px; height: 0px; }
 
+
+/* SOFTWARE DOWNLOADS PAGE */
+.mt80 { margin-top: 80px; } 
+.mb80 { margin-bottom: 80px; }
+.software-downloads-table { }
+.software-downloads-table br { line-height: 18px; }
 
 /* FOOTER */
 #footerForm { margin-top: 6px;  } 
@@ -97,3 +115,4 @@ header.header .logo img { display: block;  }
 .footer-section::before { content: ''; background: #3e51ce; height: 6px; width: 50%; left: 0px; top: -6px; display: block; position: absolute; }
 .footer-section::after { content: ''; background: #323b7a; height: 6px; width: 50%; right: 0px; top: -6px; display: block; position: absolute; }
 #msgSubmit { margin: 0px !important; padding: 0px; float: right; font-size: 24px; position: relative; top: 8px; } 
+.footer-small { padding-top:60px; padding-bottom: 20px; }     

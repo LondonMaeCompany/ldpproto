@@ -59,12 +59,12 @@
     
     <div class="row row-no-mrg wow">
       <div class="col-sm-6 col-no-pdg">
-        <div class="b-container-without-1 b-container-without-1_mod-a">
+        <div class="b-container-without-1 b-container-without-1_mod-a border-2-colors">
           <h2 class="b-container-without-1__title">Careers at Lock Down Protection</h2>
           <div class="b-container-without-1__text">
             <p>We are always recruiting top security talent. Reach out to us with your CV if you’re interested in joining our team. </p>
           </div><a href="home.php" class="b-container-without-1__btn btn btn-primary btn-effect">send us your cv</a>
-        </div>
+        </div> 
         <!-- end b-container-without-1-->
       </div>
       <div class="col-sm-6 col-no-pdg">
@@ -80,7 +80,7 @@
     
     
      <footer class="footer" id="footer"> 
-      <div class="footer__main footer__main_mod-a parallax-bg parallax-dark">
+      <div id="footer-check" class="footer__main footer__main_mod-a parallax-bg parallax-dark">
 
         <div class="parallax__inner">
           <div class="container">

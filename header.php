@@ -1,3 +1,20 @@
+<?php function get_contact_us_correct_link() { ?>
+<script type="text/javascript"> 
+jQuery(document).ready(function($) { 
+	if($('#footer-check').hasClass('footer-small'))
+		{
+			// alert($("#footer-check").hasClass("footer-small"));
+			$( "#mainctalink" )
+			.html( "<a href='#' data-toggle='modal' data-target='#contactpopup' class='main-cta trn500ms'>Get In Touch</a>" );
+		}   
+	else {
+		// IF False
+		$( "#mainctalink" )
+			.html( "<a href='#footerForm' id='main-cta' class='main-cta trn500ms'>Get In Touch</a>" );
+	} 
+});   
+</script>
+<?php } ?> 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -54,11 +71,10 @@
 			  <ul class="nav navbar-nav navbar-right">
                       <li class="dropdown"><a class="trn500ms" href="support.php">Software & Support</a>
                         <ul role="menu" class="dropdown-menu">
-                          <li><a class="trn500ms" href="support.php">Software Downloads</a></li>
+                          <li><a class="trn500ms" href="software.php">Software Downloads</a></li>
                           <li><a class="trn500ms" href="how-to-videos.html">How to Videos</a></li>
-                          <li><a class="trn500ms" href="contact.html">Customer Support</a></li>
                         </ul>
-                      </li>
+                      </li> 
                       <li class="dropdown"><a class="trn500ms" href="dh-2.html">See More</a>
                         <ul role="menu" class="dropdown-menu">
                           <li><a class="trn500ms" href="dh-2.html">Proven Protection</a></li>
@@ -68,9 +84,10 @@
 
                       <li class="social-net__item hidden-xs"><a href="https://www.facebook.com/lockdownprotectioninc/" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
 
-                      <li class="last-menu-item">
+                      <li id="mainctalink" class="last-menu-item">
                       	<a href="#footerForm" id="main-cta" class="main-cta trn500ms">Get In Touch</a>
-                      </li>
+                      	<?php get_contact_us_correct_link(); ?>
+                      </li> 
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

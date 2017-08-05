@@ -1,52 +1,66 @@
 <?php require_once('header.php');?>
 
-
+ 
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-push-4">
             <div class="l-main-content l-main-content_pd-lft">
               <section class="section-area">
-                <h2 class="ui-title-inner-1">Effective Solutions to best serve you<br>&amp; Secure your Surroundings!</h2>
-                <div class="ui-subtitle-block ui-subtitle-block_mr-btm_xs">Trusted Protection that you can afford, security that you can see.</div>
-                <p class="add_space"></p>
-                <div class="row">
-                  <div class="col-sm-6"><iframe width="360" height="315" src="https://www.youtube.com/embed/UIgqvMJHAZU" frameborder="0" allowfullscreen></iframe>
-                    <h3 class="ui-title-inner-1 ui-title-inner-1_light ui-title-inner-1_mrg-top">Trusted Protection</h3>
-                    <p>Our team of professionals can evaluate your current system and recommend improvements to increase the security of your property based on your individual requirements</p>
-                  </div>
-                  <div class="col-sm-6"><iframe width="360" height="315" src="https://www.youtube.com/embed/qoy_vzp88Ew" frameborder="0" allowfullscreen></iframe>
-                    <h3 class="ui-title-inner-1 ui-title-inner-1_light ui-title-inner-1_mrg-top">The Lock Down Motto</h3>
-                    <p>Our team of professionals can evaluate your current system and recommend improvements to
-
-increase the security of your property based on your individual requirements.</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="border-2-colors border-2-colors_border-bottom">
-                      <div class="b-banners-1 section-bg section-bg_grey-2">
-                        <div class="section__inner">
-                          <div class="b-banners-1__text">ARE YOU ON LOCK DOWN PROTECTION?</div><a href="home.php" class="b-banners-1__btn btn btn-default btn-sm btn-effect">Find Out More</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end banners-->
-                  </div>
-                  <div class="col-sm-6">
-                    <h3 class="ui-title-inner-1 ui-title-inner-1_light ui-title-inner-1_mrg-top">Types of Security Systems</h3>
-                    <ul class="list list-mark-1 list_dark list_w-border">
-                      <li>Residential</li>
-                      <li>Political Gathering / event</li>
-                      <li>Commerical</li>
-                      <li>redcarpet event secuirty</li>
-                      <li>music concerts</li>
-                      <li>any sports / gaming event</li>
-                    </ul>
-                  </div>
-                </div>
+				<div class="row">
+					<div class="col-sm-12">
+						<form class="support-ticket-form">
+					  		<h3 class="ui-title-inner-1 ui-title-inner-1_light">Submit a Support Ticket</h3>
+						  <div class="row">
+								<div class="col-xs-12 col-sm-6">
+								  <div class="form-group">
+									<input type="text" class="form-control" id="fullname" placeholder="Full Name">
+								  </div>
+								</div>
+								  <div class="col-xs-12 col-sm-6">
+									  <div class="form-group">
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									  </div>
+								  </div>
+						  </div>
+						  <div class="form-group">
+							<input type="text" class="form-control" id="phone" placeholder="Phone Number">
+						  </div>
+						  <div class="form-group">
+							  <textarea class="form-control" id="message" placeholder="Message" rows="3"></textarea>
+						  </div> 
+						  <button type="submit" class="btn btn-primary trn500ms">Submit</button>
+						</form>   
+					</div>
+				</div>
+               
+               
+               <div class="row support-icons-panel">
+               		<div class="col-xs-12 col-sm-4 border-right-1">
+               			<div class="icon-panel trn500ms">
+               				<i class="fa fa-phone fa-fw trn500ms"></i> 
+							<a class="icon-link-text trn500ms" href="#">Support</a>
+               			</div>
+               		</div>
+               	
+               		<div class="col-xs-12 col-sm-4 border-right-1">
+               			<div class="icon-panel trn500ms">
+               				<i class="fa fa-info fa-fw trn500ms"></i> 
+							<a class="icon-link-text trn500ms" href="#">Knowledge</a>
+               			</div>
+               		</div> 
+               		
+               		<div class="col-xs-12 col-sm-4">
+               			<div class="icon-panel trn500ms">
+               				<i class="fa fa-question fa-fw trn500ms"></i> 
+							<a class="icon-link-text trn500ms" href="#">Tutorials</a>
+               			</div> 
+               		</div>
+               </div> 
+                
+                
                 <div class="row">
                   <div class="col-xs-12">
-                    <h3 class="ui-title-inner-1 ui-title-inner-1_light">Service FAQ’s</h3>
+                    <h3 class="ui-title-inner-1 ui-title-inner-1_light" style="margin-top: 80px;">Service FAQ’s</h3>
                     <div id="accordion-1" class="panel-group accordion accordion_marg-top_a">
                       <div class="panel panel-default">
                         <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion-1" href="#collapse-1" class="btn-collapse"><i class="icon"></i></a>
@@ -98,18 +112,6 @@ increase the security of your property based on your individual requirements.</p
           </div>
           <div class="col-md-4 col-md-pull-8">
             <aside class="l-sidebar">
-              <div class="section-sidebar">
-                <div class="b-download">
-                  <h3 class="b-download__title">get service brochure</h3>
-                  <div class="b-download__item"><a href="assets/downloads/doc-2.pdf" class="b-download__link color-primary"><i class="b-download__icon fa fa-file-pdf-o"></i> Download as PDF</a>
-                    <div class="b-download__size">size: 3mb</div>
-                  </div>
-                  <div class="b-download__item"><a href="assets/downloads/doc-1.doc" class="b-download__link color-primary"><i class="b-download__icon fa fa-file-word-o"></i> Download as DOC</a>
-                    <div class="b-download__size">size: 3mb</div>
-                  </div>
-                </div>
-                <!-- end b-download-->
-              </div>
               <!-- Start SidePanel Download -->
               <div class="section-sidebar">
                 <div class="b-download">
@@ -122,6 +124,19 @@ increase the security of your property based on your individual requirements.</p
                       <div class="b-download__size"><p>Mac OSX 10.6.x, 10.7.x, 10.8.x, and on</p></div>
                     <div class="b-download__size">size: 3mb</div>
                   </div>
+                  <div class="b-download__item" style="margin-bottom: 40px;"><a href="#" class="small-link text-right align-right">View All Software</a></div>
+                </div>  
+                <!-- end b-download--> 
+              </div>
+              <div class="section-sidebar">
+                <div class="b-download">
+                  <h3 class="b-download__title">get service brochure</h3>
+                  <div class="b-download__item"><a href="assets/downloads/doc-2.pdf" class="b-download__link color-primary"><i class="b-download__icon fa fa-file-pdf-o"></i> Download as PDF</a>
+                    <div class="b-download__size">size: 3mb</div>
+                  </div>
+                  <div class="b-download__item"><a href="assets/downloads/doc-1.doc" class="b-download__link color-primary"><i class="b-download__icon fa fa-file-word-o"></i> Download as DOC</a>
+                    <div class="b-download__size">size: 3mb</div>
+                  </div>
                 </div>
                 <!-- end b-download-->
               </div>
@@ -129,6 +144,8 @@ increase the security of your property based on your individual requirements.</p
           </div>
         </div>
       </div>
+      
+      
       <div class="section-type-b section-bg section-bg_primary section-bg_light">
         <div class="section__inner">
           <div class="container">
@@ -157,6 +174,8 @@ increase the security of your property based on your individual requirements.</p
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  <?php require_once('footer.php'); ?>
+      </div> 
+      
+      
+    
+  <?php require_once('footer-small.php'); ?>
