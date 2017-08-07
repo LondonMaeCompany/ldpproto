@@ -8,7 +8,12 @@
 
 
 /* Titles */
-
+.btm-no{
+  padding: 0px;
+}
+.careers-photo{
+  background-color: rgb(58, 62, 61);
+}
 .wrap-title {
   margin-bottom: 40px;
 }
@@ -1752,7 +1757,8 @@ body {
 }
 
 .b-container-without-1_mod-a {
-  background-image: url("../media/components/b-container-without-1/bg-3.png");
+  background-image: url("../media/components/b-container-without-1/bg-2.png");
+
   background-repeat: no-repeat;
   background-position: 15% 40%;
   padding-top: 97px;
@@ -4442,7 +4448,7 @@ height: 100%;
 }
 
 .top-div-placement{
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 .add_space{

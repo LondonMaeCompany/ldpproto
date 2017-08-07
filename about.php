@@ -36,7 +36,7 @@
               to not only see justice through when a crime is committed, but take steps to prevent the crime from ever occurring.</p>
 
           </div>
-          <div class="col-sm-6"><img src="assets/media/content/555x300/1.jpg" alt="Foto" class="img-responsive"></div>
+          <div class="col-sm-6"><img src="assets/media/general/web-photos/web-photo-1.jpg" alt="Foto" class="img-responsive"></div>
         </div>
       </div>
     </section>
@@ -84,7 +84,7 @@
                 <!-- end b-video-->
               </div>
               <div class="b-type-b__inner">
-                <h2 class="b-type-b__title ui-title-inner-1">Our Team Has Over 10 Years Of Experience With the<span class="br"> Atlanta Police Department</span></h2>
+                <h2 class="b-type-b__title ui-title-inner-1">Our Team Has Over 14 Years Of Experience working on the<span class="br"> Atlanta Police Department</span></h2>
                 <div class="b-type-b__subtitle ui-subtitle-block">More than five decades in industry gives us the power to perform every day and every time.</div>
                 <div class="b-type-b__text">
                   <p>The knowledge and experience our security professionals bring to the table is unparalleled. We understand the unique needs of guard services, event security, comprehensive property security, mobile security units and more. We understand
@@ -157,6 +157,6 @@
       </div>
     </section>
 
-    
+
   </div>
-  <?php require_once('footer.php'); ?>
+  <?php require_once('footer-small.php'); ?>

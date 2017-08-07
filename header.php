@@ -1,20 +1,20 @@
 <?php function get_contact_us_correct_link() { ?>
-<script type="text/javascript"> 
-jQuery(document).ready(function($) { 
+<script type="text/javascript">
+jQuery(document).ready(function($) {
 	if($('#footer-check').hasClass('footer-small'))
 		{
 			// alert($("#footer-check").hasClass("footer-small"));
 			$( "#mainctalink" )
 			.html( "<a href='#' data-toggle='modal' data-target='#contactpopup' class='main-cta trn500ms'>Get In Touch</a>" );
-		}   
+		}
 	else {
 		// IF False
 		$( "#mainctalink" )
 			.html( "<a href='#footerForm' id='main-cta' class='main-cta trn500ms'>Get In Touch</a>" );
-	} 
-});   
+	}
+});
 </script>
-<?php } ?> 
+<?php } ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 		  <div class="container-fluid no-left-padding">
 			<div class="navbar-header">
 			  <a class="navbar-brand logo space trn800ms hidden-xs" href="#">
-			  	<img src="assets/media/general/logo-resized3.png" alt="Logo" class="logo__img2 img-responsive2 trn500ms" />
+			  	<img src="assets/media/general/logo/logo-resized3.png" alt="Logo" class="logo__img2 img-responsive2 trn500ms" />
 			  </a>
 			  <div class="clearfix"></div>
 			</div>
@@ -61,33 +61,23 @@ jQuery(document).ready(function($) {
 			  <ul class="nav navbar-nav navbar-left">
                       <li class="dropdown"><a class="trn500ms" href="home.php">Home</a></li>
                       <li><a class="trn500ms" href="about.php">Who We Are</a></li>
-                      <li class="dropdown"><a class="trn500ms" href="services.php">What We Offer</a>
-                        <ul role="menu" class="dropdown-menu">
-                          <li><a class="trn500ms" href="home.php">LockDown Protection</a></li>
-                          <li><a class="trn500ms" href="home-2.html">LockDown Mobile</a></li>
-                        </ul>
-                      </li>
+                      <li class="dropdown"><a class="trn500ms" href="services.php">What We Offer</a> </li>
 			  </ul>
 			  <ul class="nav navbar-nav navbar-right">
                       <li class="dropdown"><a class="trn500ms" href="support.php">Software & Support</a>
                         <ul role="menu" class="dropdown-menu">
                           <li><a class="trn500ms" href="software.php">Software Downloads</a></li>
-                          <li><a class="trn500ms" href="how-to-videos.html">How to Videos</a></li>
-                        </ul>
-                      </li> 
-                      <li class="dropdown"><a class="trn500ms" href="dh-2.html">See More</a>
-                        <ul role="menu" class="dropdown-menu">
-                          <li><a class="trn500ms" href="dh-2.html">Proven Protection</a></li>
-                          <li><a class="trn500ms" target="_blank" href="https://www.google.com/#q=lockdown+protection+reviews%5C&lrd=0x88f4df8f7278b649:0x1a60642b70bac40b,1,">Customer Reviews</a></li>
+                          <li><a class="trn500ms" href="how-to-videos.php">How to Videos</a></li>
                         </ul>
                       </li>
+
 
                       <li class="social-net__item hidden-xs"><a href="https://www.facebook.com/lockdownprotectioninc/" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
 
                       <li id="mainctalink" class="last-menu-item">
                       	<a href="#footerForm" id="main-cta" class="main-cta trn500ms">Get In Touch</a>
                       	<?php get_contact_us_correct_link(); ?>
-                      </li> 
+                      </li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

@@ -107,28 +107,5 @@
     </div>
   </section>
   <!-- end b-advantages-1-->
-  <div class="section-type-a">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7">
 
-          <!-- end b-type-a-->
-
-        </div>
-        <div class="col-sm-5">
-          <div class="b-contact-banner">
-            <div class="border-2-colors">
-              <div class="b-contact-banner__inner">
-                <h3 class="b-contact-banner__title">contact us for a competitive price</h3>
-                <div class="b-contact-banner__decor ui-decor-type-3 center-block"></div>
-                <div class="b-contact-banner__info b-contact-banner__info_lg">404.200.3124</div>
-                <div class="b-contact-banner__info">lockhart@lockdownprotection.com</div>
-              </div>
-            </div>
-          </div>
-          <!-- end b-contact-banner-->
-        </div>
-      </div>
-    </div>
-  </div>
-    <?php require_once('footer2.php'); ?>
+    <?php require_once('footer-small.php'); ?>
